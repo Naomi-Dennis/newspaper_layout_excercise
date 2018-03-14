@@ -1,0 +1,68 @@
+main{
+  width: 960px;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+address{
+    font-variant: small-caps;
+    text-align: center;
+}
+hr{
+  width: 85%;
+}
+.nav-buttons {
+  display: inline-block;
+  padding: 5px 5px;
+  border: 1px solid #000;
+  margin: 0px 10px;
+  color: #000;
+}
+
+.nav-buttons:hover {
+  color: #345;
+  font-weight: bold;
+}
+
+.nav-buttons:visited {
+  color: #000;
+}
+
+.nav-buttons:active {
+  background-color: #dfdfdf;
+}
+
+header {
+  text-align: center;
+}
+
+header h1{
+  font-size: 3em;
+}
+.left {
+  float: left;
+
+}
+
+.right {
+  float: right;
+
+}
+
+.article-preview{
+    width: 49%;
+}
+
+.article-preview a{
+  float: right;
+  margin-right: 45px;
+}
+.clear{
+  clear: both;
+}
+article > h2{
+  text-align: center;
+}
